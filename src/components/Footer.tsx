@@ -10,7 +10,7 @@ export default function Footer() {
             <p>123 Rue de la Viande<br />75000 Paris, France</p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">Heures d'ouverture</h3>
+            <h3 className="text-xl font-bold mb-4 text-primary">Heures d&apos;ouverture</h3>
             <p>Lun - Dim: 11h30 - 23h00</p>
           </div>
           <div>

@@ -26,9 +26,7 @@ export default function Header() {
       <nav className="container mx-auto flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold">Grill & Burgers</Link>
         <div className="space-x-4">
-          <Link href="#specialties" className="hover:text-primary transition-colors">Spécialités</Link>
           <Link href="#menu" className="hover:text-primary transition-colors">Menu</Link>
-          <Link href="#about" className="hover:text-primary transition-colors">À propos</Link>
           <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
         </div>
       </nav>
