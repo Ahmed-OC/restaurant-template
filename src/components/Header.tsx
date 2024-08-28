@@ -23,7 +23,7 @@ export default function Header() {
       className="fixed top-0 left-0 right-0 z-50 px-4 py-4 transition-colors duration-300"
       style={{ backgroundColor: headerBackground, boxShadow: headerShadow }}
     >
-      <nav className="container mx-auto flex items-center justify-between">
+      <nav className="container text-secondary mx-auto flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold">Grill & Burgers</Link>
         <div className="space-x-4">
           <Link href="#menu" className="hover:text-primary transition-colors">Menu</Link>

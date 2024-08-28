@@ -13,11 +13,12 @@ export default function Hero() {
       transition={{ duration: 1 }}
     >
       <Image
-        src="/placeholder.svg?height=1080&width=1920"
+        src="/assets/images/hero.webp"
         alt="Grill ambiance"
         layout="fill"
         objectFit="cover"
         className="absolute inset-0 z-0"
+        priority
       />
       <div className="relative z-10 text-center text-white">
         <motion.h1
@@ -41,7 +42,7 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Réserver une table</Button>
+          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Découvrez notre menu</Button>
         </motion.div>
       </div>
     </motion.section>
