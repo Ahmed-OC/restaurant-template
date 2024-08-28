@@ -8,9 +8,9 @@ export const specialties: Specialty[] = [
 ];
 
 export const menuItems: MenuItem[] = [
-  { name: 'Classic Burger', description: 'Notre burger signature avec steak de bœuf juteux, cheddar fondant, et sauce secrète.', price: '12€' },
-  { name: 'Côte de Bœuf', description: 'Côte de bœuf grillée à la perfection, servie avec ses pommes de terre rôties.', price: '28€' },
-  { name: 'BBQ Ribs', description: 'Travers de porc caramélisés, nappés de notre sauce BBQ maison.', price: '18€' },
+  { name: 'Classic Burger', description: 'Notre burger signature avec steak de bœuf juteux, cheddar fondant, et sauce secrète.', price: '12€', link: '/assets/images/burger.webp' },
+  { name: 'Côte de Bœuf', description: 'Côte de bœuf grillée à la perfection, servie avec ses pommes de terre rôties.', price: '28€', link: '/assets/images/boeuf.webp' },
+  { name: 'BBQ Ribs', description: 'Travers de porc caramélisés, nappés de notre sauce BBQ maison.', price: '18€', link: '/assets/images/ribs.webp' },
 ];
 
 export const advantages: Advantage[] = [

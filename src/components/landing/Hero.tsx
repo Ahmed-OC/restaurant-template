@@ -1,8 +1,9 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import { Button } from "@/components/ui/button"
-import Image from 'next/image'
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -42,9 +43,13 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Découvrez notre menu</Button>
+          <Link href={"/menu"}>
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+              Découvrez notre menu
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </motion.section>
-  )
+  );
 }

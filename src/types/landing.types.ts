@@ -1,6 +1,6 @@
 // types/types.ts
 
-import { LucideIcon } from 'lucide-react'
+import { LucideIcon } from "lucide-react";
 
 export interface Specialty {
   icon: LucideIcon;
@@ -9,6 +9,7 @@ export interface Specialty {
 }
 
 export interface MenuItem {
+  link: string;
   name: string;
   description: string;
   price: string;
