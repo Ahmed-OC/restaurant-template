@@ -10,18 +10,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function BurgerRestaurantLanding() {
-  const [isScrolled, setIsScrolled] = useState(false)
   const { scrollY } = useScroll()
   const headerBackground = useTransform(scrollY, [0, 50], ['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0.8)'])
   const headerShadow = useTransform(scrollY, [0, 50], ['none', '0 2px 4px rgba(0,0,0,0.1)'])
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
 
   const specialties = [
     { icon: Beef, title: 'Viande de qualité', description: 'Bœuf 100% pur muscle' },
