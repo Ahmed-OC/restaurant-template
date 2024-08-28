@@ -3,6 +3,7 @@ import Hero from '@/components/landing/Hero'
 import Specialties from '@/components/landing/Specialities'
 import MenuPreview from '@/components/landing/MenuPreview'
 import Footer from '@/components/Footer'
+import OurStory from '@/components/landing/OurStory'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Specialties />
       <MenuPreview />
+      <OurStory />
       <Footer />
     </main>
   )
