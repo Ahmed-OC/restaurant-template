@@ -7,12 +7,13 @@ import Image from 'next/image'
 import { menuItems } from '@/data/data'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import MenuHero from '@/components/menu/MenuHero'
 
 export default function FullMenu() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
-
+      <MenuHero />
       <main className="container mx-auto px-4 py-12 mt-20">
         <motion.h1 
           className="text-4xl font-bold text-center mb-12 text-primary"
