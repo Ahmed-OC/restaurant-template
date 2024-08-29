@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function MenuHero() {
   return (
-    <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
       <Image
         src="/assets/images/menuHero.webp"
         alt="Menu background"

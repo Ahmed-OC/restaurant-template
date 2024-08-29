@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 
 import { Category } from '@/types/global.types'
 
-interface MenuFilterProps {
+interface FilterProps {
   onFilterChange: (category: Category) => void
 }
 
-export default function MenuFilter({ onFilterChange }: MenuFilterProps) {
+export default function Filter({ onFilterChange }: FilterProps) {
   const [activeCategory, setActiveCategory] = useState<Category>('Tous')
 
   const categories: Category[] = ['Tous', 'Burgers', 'Grillades', 'Sides', 'Desserts']

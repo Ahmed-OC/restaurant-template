@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
         </div>
         <Separator className="my-8 bg-border" />
-        <p className="text-center text-sm">© 2023 Grill & Burgers. Tous droits réservés.</p>
+        <p className="text-center text-sm">© {new Date().getFullYear()} Grill & Burgers. Tous droits réservés.</p>
       </div>
     </footer>
   )
