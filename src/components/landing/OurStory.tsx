@@ -25,11 +25,11 @@ export default function OurStory() {
             viewport={{ once: true }}
           >
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/assets/images/history.webp"
               alt="Fondateurs du restaurant"
               width={600}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg object-cover max-h-[400px]"
             />
           </motion.div>
           <motion.div

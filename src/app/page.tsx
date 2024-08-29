@@ -4,6 +4,7 @@ import Specialties from '@/components/landing/Specialities'
 import MenuPreview from '@/components/landing/MenuPreview'
 import Footer from '@/components/Footer'
 import OurStory from '@/components/landing/OurStory'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Specialties />
       <MenuPreview />
       <OurStory />
+      <Testimonials />
       <Footer />
     </main>
   )
