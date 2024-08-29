@@ -8,13 +8,6 @@ export interface Specialty {
   description: string;
 }
 
-export interface MenuItem {
-  link: string;
-  name: string;
-  description: string;
-  price: string;
-}
-
 export interface Advantage {
   icon: LucideIcon;
   title: string;

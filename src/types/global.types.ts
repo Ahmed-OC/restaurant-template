@@ -1,0 +1,1 @@
+export type Category = 'Tous' | 'Burgers' | 'Grillades' | 'Sides' | 'Desserts' | 'Salades'

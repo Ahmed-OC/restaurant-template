@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import Link from 'next/link'
 import Image from 'next/image'
 import { menuItems } from '@/data/data'
-import { MenuItem } from '@/types/landing.types'
+import { MenuItem } from '@/types/menu.types'
 
 export default function MenuPreview() {
   return (
