@@ -14,11 +14,10 @@ export default function Hero() {
       transition={{ duration: 1 }}
     >
       <Image
+        layout="fill"
         src="/assets/images/hero.webp"
         alt="Grill ambiance"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 object-cover"
         priority
       />
       <div className="relative z-10 text-center text-white">

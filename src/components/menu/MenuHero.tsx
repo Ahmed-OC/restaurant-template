@@ -7,11 +7,11 @@ export default function MenuHero() {
   return (
     <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
       <Image
+        layout='fill'
         src="/assets/images/menuHero.webp"
         alt="Menu background"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 object-cover"
+        priority
       />
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <div className="relative z-20 text-center text-white">
